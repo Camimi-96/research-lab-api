@@ -14,7 +14,7 @@ El cifrado TLS (Transport Layer Security) es lo mismo que SSL pero es una versi�
 - ¿Por qué HTTPS es más seguro?
 Porque tiene un cifrado de encriptación, tiene la autenticación y tiene la integridad de los datos. Es decir, la información no puede ser modificada durante el tránsito, ya que el navegador detecta estos cambios y bloquea la conexión.
 - Muestra un ejemplo visual (puede ser una captura del candado del navegador).
-[elht.jpg](https://postimg.cc/NKNHjfH2)
+[![elht.jpg](https://i.postimg.cc/x1TcFKwV/elht.jpg)](https://postimg.cc/jLmxDJqM)
 - ¿Qué sucede si un sitio no usa HTTPS?
 La información enviada entre el usuario y el servidor no está cifrada, lo que hace vulnerable a ser interceptada y robada por hackers.
 
@@ -140,5 +140,5 @@ Si quieres ir más allá, investiga también cómo funcionan las peticiones HTTP
 
 Curl: es una herramienta que permite hacer peticiones HTTP desde la terminal. ej: curl -X GET https://api.ejemplo.com/usuarios/1
 Postman: es una aplicación interactiva que te deja crear y probar peticiones HTTP de manera visual. ej:
-[Postman-login-1.webp](https://postimg.cc/py2kry9c)
+[![Postman-login-1.webp](https://i.postimg.cc/PqCNddfF/Postman-login-1.webp)](https://postimg.cc/yJz7P4ZF)
 Módulo requests en Python: te permite hacer peticiones HTTP fácilmente desde tus programas.
